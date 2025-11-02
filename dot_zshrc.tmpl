@@ -51,5 +51,5 @@ export PATH="{{ .chezmoi.homeDir }}/.rd/bin:$PATH"
 
 [[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
 
-
-source ~/.safe-chain/scripts/init-posix.sh # Safe-chain Zsh initialization script
+# Safe-chain Zsh initialization script (if installed)
+[ -f ~/.safe-chain/scripts/init-posix.sh ] && source ~/.safe-chain/scripts/init-posix.sh
