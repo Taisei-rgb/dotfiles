@@ -28,3 +28,6 @@ dotfiles の適用は必要なアプリケーションのインストール等�
 Cursor を開く: Cmd + Shift + P → "Shell Command: Install 'cursor' command in PATH"
 
 ### 4. 拡張機能が自動インストールされる（run_once_スクリプトが実行される）
+
+## その他
+リポジトリ clone 時に ssh エラーが出た場合はこちらを参照: https://qiita.com/takapon21/items/13f00cb2e48d8c1cc115
