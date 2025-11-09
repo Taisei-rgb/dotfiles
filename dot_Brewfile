@@ -1,0 +1,13 @@
+# 基本的な開発ツール
+brew "chezmoi"
+brew "git"
+brew "gh"
+brew "lazygit"
+
+# Node.js環境
+brew "node"
+brew "nodebrew"
+brew "pnpm"
+
+# アプリケーション
+cask "cursor"
