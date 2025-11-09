@@ -11,10 +11,17 @@ Provisioned by [chezmoi](https://www.chezmoi.io/)
 - `.gitconfig` の設定
 
 ## 新PCでのセットアップ手順
+### 1. Homebrew のインストール
+参照: https://brew.sh/
+
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
 ### 1. chezmoi のインストール
 `brew install chezmoi`
 
 ### 2. dotfiles の適用
+dotfiles の適用は必要なアプリケーションのインストール等おこなった後に実行する。
+
 `chezmoi init --apply https://github.com/Taisei-rgb/dotfiles.git`
 
 ### 3. Cursor CLI ツールのインストール
