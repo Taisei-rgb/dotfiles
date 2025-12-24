@@ -14,13 +14,6 @@ PROMPT='%B%F{blue}%n %F{green}%1~%f %F{cyan}$vcs_info_msg_0_%f%F{yellow}>>%f '
 # Homebrew settings
 export PATH="/opt/homebrew/bin:$PATH"
 
-# Hacobu settings
-export GOPATH="$HOME/hacobu_go"
-export GO111MODULE=on
-export GOPRIVATE=bitbucket.org/hacobu,github.com/hacobu-inc #go1.13用
-export PATH=$GOPATH/bin:$PATH
-export PATH=/usr/local/opt/mysql@8.0/bin/:$PATH
-
 # pnpm
 export PNPM_HOME="{{ .chezmoi.homeDir }}/Library/pnpm"
 case ":$PATH:" in
