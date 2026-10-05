@@ -44,3 +44,6 @@ export PATH="{{ .chezmoi.homeDir }}/.rd/bin:$PATH"
 
 # Safe-chain Zsh initialization script (if installed)
 [ -f ~/.safe-chain/scripts/init-posix.sh ] && source ~/.safe-chain/scripts/init-posix.sh
+
+# zoxide
+eval "$(zoxide init zsh --hook prompt)"
