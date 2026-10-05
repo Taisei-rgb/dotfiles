@@ -7,8 +7,10 @@ Provisioned by [chezmoi](https://www.chezmoi.io/)
 最小限の管理を実現している。
 - Cursor の設定 / 拡張機能
 - Hyper の設定
-- `.zshrc`, `.zprofile` の設定
+- `.zshrc` の設定
 - `.gitconfig` の設定
+- `.ssh/config` の設定（秘密鍵は含まない）
+- `.npmrc`, `.yarnrc.yml` の設定（パッケージインストール時のスクリプト実行を無効化）
 - Homebrew でインストールする CLI ツール / アプリケーション（`.Brewfile`）
 
 ## 新PCでのセットアップ手順
