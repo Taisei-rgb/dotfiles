@@ -4,10 +4,18 @@ brew "git"
 brew "gh"
 brew "lazygit"
 
+# CLIツール
+brew "awscli"
+brew "fzf"
+brew "zoxide"
+brew "ffmpeg"
+brew "herdr"
+
 # Node.js環境
 brew "node"
 brew "nodebrew"
 brew "pnpm"
+brew "bun"
 
 # アプリケーション
 cask "cursor"
