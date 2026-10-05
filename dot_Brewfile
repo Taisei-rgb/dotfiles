@@ -39,7 +39,7 @@ cask "google-chrome"
 cask "chatgpt"
 cask "claude"
 cask "google-japanese-ime"
-cask "logi-options+"
+; cask "logi-options+"
 cask "aws-vpn-client"
 cask "openvpn-connect"
 
