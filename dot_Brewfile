@@ -17,5 +17,28 @@ brew "nodebrew"
 brew "pnpm"
 brew "bun"
 
-# アプリケーション
+# アプリケーション: 開発系
 cask "cursor"
+cask "hyper"
+cask "github"
+cask "android-studio"
+cask "figma"
+
+# アプリケーション: ユーティリティ
+cask "raycast"
+cask "clipy"
+cask "hiddenbar"
+cask "appcleaner"
+cask "keyboardcleantool"
+cask "gitify"
+
+# アプリケーション: その他
+cask "slack"
+cask "notion"
+cask "google-chrome"
+cask "chatgpt"
+cask "claude"
+cask "google-japanese-ime"
+cask "logi-options+"
+cask "aws-vpn-client"
+cask "openvpn-connect"
